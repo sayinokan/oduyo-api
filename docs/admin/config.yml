@@ -3,6 +3,9 @@ backend:
   repo: sayinokan/oduyo-api
   branch: main
 
+local_backend: false
+
+
 media_folder: "docs/assets/uploads"
 public_folder: "/assets/uploads"
 

@@ -2,7 +2,7 @@ backend:
   name: github
   repo: sayinokan/oduyo-api
   branch: main
-  auth_scope: repo
+  use_graphql: true
 
 site_url: https://oduyoapi.netlify.app
 display_url: https://oduyoapi.netlify.app

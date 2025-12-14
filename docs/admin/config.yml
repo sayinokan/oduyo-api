@@ -1,0 +1,120 @@
+local_backend: true
+
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "docs/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "kullanici-denetimi"
+    label: "Kullanıcı Denetimi"
+    files:
+      - label: "Kullanıcı Denetimi"
+        name: "kullanici-denetimi"
+        file: "docs/kullanici-denetimi.md"
+        fields:
+          - { label: "Başlık", name: "title", widget: "string" }
+          - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "filtreleme-parametreleri"
+    label: "Filtreleme Parametreleri"
+    files:
+      - label: "Filtreleme Parametreleri"
+        name: "filtreleme"
+        file: "docs/filtreleme-parametreleri.md"
+        fields:
+          - { label: "Başlık", name: "title", widget: "string" }
+          - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "odeme-servisleri"
+    label: "Ödeme Servisleri"
+    folder: "docs/odeme-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "gateway-servisleri"
+    label: "Gateway Servisleri"
+    folder: "docs/gateway-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "fatura-servisleri"
+    label: "Fatura Servisleri"
+    folder: "docs/fatura-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "siparis-servisleri"
+    label: "Sipariş Servisleri"
+    folder: "docs/siparis-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "banka-servisleri"
+    label: "Banka Servisleri"
+    folder: "docs/banka-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "grafik-raporlari"
+    label: "Grafik Raporları"
+    folder: "docs/grafik-raporlari"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "api-kullanici-tarihcesi"
+    label: "API Kullanıcı Tarihçesi"
+    folder: "docs/api-kullanici-tarihcesi"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "cari-servisleri"
+    label: "Cari Servisleri"
+    folder: "docs/cari-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "sanal-pos-servisleri"
+    label: "Sanal Pos Servisleri"
+    folder: "docs/sanal-pos-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
+  - name: "link-olusturma-servisleri"
+    label: "Link Oluşturma Servisleri"
+    folder: "docs/link-olusturma-servisleri"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+

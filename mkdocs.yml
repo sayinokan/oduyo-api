@@ -1,0 +1,143 @@
+site_name: API Dokümantasyonu
+
+theme:
+  name: material
+  logo: assets/logo-white.png
+  favicon: assets/favicon.png
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  features:
+    - content.code.copy
+    - content.code.wrap
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.tabs
+    - navigation.sections
+    - toc.follow
+    - content.tabs.link
+    - content.code.annotate
+    - content.footnotes
+    - content.headings.anchor
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - announce.dismiss
+  language: tr
+nav:
+  - Kullanıcı Denetimi: kullanici-denetimi.md
+  - Filtreleme Parametreleri: filtreleme-parametreleri.md
+  - Servisler:
+      - Ödeme Servisleri:
+          - Ödeme Listeleme: odeme-servisleri/odeme-listeleme.md
+          - İptal-İade İşlemleri Listeleme: odeme-servisleri/iptal-iade-islemleri-listeleme.md
+          - Ödeme Kaydetme: odeme-servisleri/odeme-kaydetme.md
+          - Ödeme Güncelleme: odeme-servisleri/odeme-guncelleme.md
+      - Gateway Servisleri:
+          - Üye: gateway-servisleri/uye.md
+          - Taksit ve BIN Sorgulama:
+              - Taksit Sorgulama: gateway-servisleri/taksit-sorgulama.md
+              - BIN Sorgulama: gateway-servisleri/bin-sorgulama.md
+          - Ödeme:
+              - 3D Secure İle Ödeme Alma: gateway-servisleri/3d-secure-ile-odeme-alma.md
+              - İşlemin Local Durumunu Sorgulama: gateway-servisleri/islemin-lokal-durumunu-sorgulama.md
+              - 3D Secure İle Ödeme Onaylama: gateway-servisleri/3d-secure-ile-odeme-onaylama.md
+              - Ödeme İptal: gateway-servisleri/odeme-iptal.md
+              - Non-Secure İle Ödeme Alma: gateway-servisleri/non-secure-ile-odeme-alma.md
+              - Ödeme İade: gateway-servisleri/odeme-iade.md
+      - Fatura Servisleri:
+          - Fatura Listeleme: fatura-servisleri/fatura-listeleme.md
+          - Fatura Kaydetme: fatura-servisleri/fatura-kaydetme.md
+          - Fatura Güncelleme: fatura-servisleri/fatura-guncelleme.md
+          - Fatura Silme: fatura-servisleri/fatura-silme.md
+      - Sipariş Servisleri:
+          - Sipariş Listeleme: siparis-servisleri/siparis-listeleme.md
+          - Sipariş Kaydetme: siparis-servisleri/siparis-kaydetme.md
+          - Sipariş Silme: siparis-servisleri/siparis-silme.md
+      - Banka Servisleri:
+          - Hesap Bilgileri: banka-servisleri/hesap-bilgileri.md
+          - Hesap Hareketleri: banka-servisleri/hesap-hareketleri.md
+          - Hesap Hareketi Güncelleme: banka-servisleri/hesap-hareketi-guncelleme.md
+      - Grafik Raporları:
+          - Ana Sayfa Raporları: grafik-raporlari/ana-sayfa-raporlari.md
+      - Api Kullanıcı Tarihçesi:
+          - Kullanıcı Giriş: api-kullanici-tarihcesi/kullanici-giris.md
+      - Cari Servisleri:
+          - Cari Listeleme: cari-servisleri/cari-listeleme.md
+          - Cari Hareket Kaydetme: cari-servisleri/cari-hareket-kaydetme.md
+          - Cari Kaydetme: cari-servisleri/cari-kaydetme.md
+          - Cari Güncelleme: cari-servisleri/cari-guncelleme.md
+          - Cari Silme: cari-servisleri/cari-silme.md
+          - Cari Hareket Silme: cari-servisleri/cari-hareket-silme.md
+      - Sanal Pos Servisleri:
+          - Sanal Pos Listeleme: sanal-pos-servisleri/sanal-pos-listeleme.md
+      - ERP Entegrasyon Servisleri:
+          - Banka Servisleri:
+              - Banka Hesap Listeleme: erp-entegrasyon-servisleri/banka-hesap-listeleme.md
+              - Banka Hesap Kaydetme: erp-entegrasyon-servisleri/banka-hesap-kaydetme.md
+              - Banka Hesap Güncelleme: erp-entegrasyon-servisleri/banka-hesap-guncelleme.md
+              - Banka Hesap Silme: erp-entegrasyon-servisleri/banka-hesap-silme.md
+          - Çek & Senet Servisleri:
+              - Çek & Senet Listeleme: erp-entegrasyon-servisleri/cek-senet-listeleme.md
+              - Çek & Senet Kaydetme: erp-entegrasyon-servisleri/cek-senet-kaydetme.md
+              - Çek & Senet Güncelleme: erp-entegrasyon-servisleri/cek-senet-guncelleme.md
+              - Çek & Senet Silme: erp-entegrasyon-servisleri/cek-senet-silme.md
+          - Hizmet Giderleri Servisleri:
+              - Hizmet Giderleri Listeleme: erp-entegrasyon-servisleri/hizmet-giderleri-listeleme.md
+              - Hizmet Giderleri Kaydetme: erp-entegrasyon-servisleri/hizmet-giderleri-kaydetme.md
+              - Hizmet Giderleri Güncelleme: erp-entegrasyon-servisleri/hizmet-giderleri-guncelleme.md
+              - Hizmet Giderleri Silme: erp-entegrasyon-servisleri/hizmet-giderleri-silme.md
+          - Kasa Kart Servisleri:
+              - Kasa Kart Kaydetme: erp-entegrasyon-servisleri/kasa-kart-kaydetme.md
+              - Kasa Kart Güncelleme: erp-entegrasyon-servisleri/kasa-kart-guncelleme.md
+              - Kasa Kart Silme: erp-entegrasyon-servisleri/kasa-kart-silme.md
+              - Kasa Kart Listeleme: erp-entegrasyon-servisleri/kasa-kart-listeleme.md
+          - Masraf Merkezi Servisleri:
+              - Masraf Merkezi Listeleme: erp-entegrasyon-servisleri/masraf-merkezi-listeleme.md
+              - Masraf Merkezi Kaydetme: erp-entegrasyon-servisleri/masraf-merkezi-kaydetme.md
+              - Masraf Merkez Güncelleme: erp-entegrasyon-servisleri/masraf-merkezi-guncelleme.md
+              - Masraf Merkezi Silme: erp-entegrasyon-servisleri/masraf-merkezi-silme.md
+          - Proje Kodu Servisleri:
+              - Proje Kodları Listeleme: erp-entegrasyon-servisleri/proje-kodlari-listeleme.md
+              - Proje Kodları Kaydetme: erp-entegrasyon-servisleri/proje-kodlari-kaydetme.md
+              - Proje Kodları Güncelleme: erp-entegrasyon-servisleri/proje-kodlari-guncelleme.md
+              - Proje Kodları Silme: erp-entegrasyon-servisleri/proje-kodlari-silme.md
+          - Özel Kod Servisleri:
+              - Özel Kod Listeleme: erp-entegrasyon-servisleri/ozel-kod-listeleme.md
+              - Özel Kod Kaydetme: erp-entegrasyon-servisleri/ozel-kod-kaydetme.md
+              - Özel Kod Güncelleme: erp-entegrasyon-servisleri/ozel-kod-guncelleme.md
+              - Özel Kod Silme: erp-entegrasyon-servisleri/ozel-kod-silme.md
+          - Muhasebe Kodu Servisleri:
+              - Muhasebe Kodu Listeleme: erp-entegrasyon-servisleri/muhasebe-kodu-listeleme.md
+              - Muhasebe Kodu Kaydetme: erp-entegrasyon-servisleri/muhasebe-kodu-kaydetme.md
+              - Muhasebe Kodu Güncelleme: erp-entegrasyon-servisleri/muhasebe-kodu-guncelleme.md
+              - Muhasebe Kodu Silme: erp-entegrasyon-servisleri/muhasebe-kodu-silme.md
+          - ERP Banka Hareketleri Servisleri:
+              - ERP Banka Hareketleri Listeleme: erp-entegrasyon-servisleri/erp-banka-hareketleri-listeleme.md
+              - ERP Banka Hareketleri Güncelleme: erp-entegrasyon-servisleri/erp-banka-hareketleri-guncelleme.md
+      - Link Oluşturma Servisleri:
+          - Tutar Girerek Ödeme Linki Oluşturma: link-olusturma-servisleri/tutar-girerek-odeme-linki-olusturma.md
+          - Serbest Ödeme Linki Oluşturma: link-olusturma-servisleri/serbest-odeme-linki-olusturma.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+copyright: Copyright &copy; 2022 - 2025 Ödüyo ! Tüm Hakları Saklıdır
+
+extra:
+  generator: false
+  
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/fix-banner.css
+
+
+
+

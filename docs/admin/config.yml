@@ -2,23 +2,28 @@ backend:
   name: github
   repo: sayinokan/oduyo-api
   branch: main
+  auth_scope: repo
 
-local_backend: false
-
+site_url: https://oduyoapi.netlify.app
+display_url: https://oduyoapi.netlify.app
 
 media_folder: "docs/assets/uploads"
 public_folder: "/assets/uploads"
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "docs"
-    label: "Dokümanlar"
+    label: "Dokümantasyon"
     folder: "docs"
     create: true
-    nested:
-      depth: 3
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Başlık", name: "title", widget: "string" }
+      - { label: "İçerik", name: "body", widget: "markdown" }
+
 
 
 

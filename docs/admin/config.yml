@@ -3,6 +3,7 @@ backend:
   repo: sayinokan/oduyo-api
   branch: main
   use_graphql: true
+  client_id: Ov23li39sr3jN9DkIR1J
 
 site_url: https://oduyoapi.netlify.app
 display_url: https://oduyoapi.netlify.app

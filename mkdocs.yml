@@ -2,6 +2,9 @@ site_name: API Dokümantasyonu
 
 theme:
   name: material
+  font:
+    text: 'Inter'
+    code: 'Inter'
   logo: assets/logo-white.png
   favicon: assets/favicon.png
   icon:
@@ -10,11 +13,12 @@ theme:
   features:
     - content.code.copy
     - content.code.wrap
+    - content.tabs.link
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.top
-    - navigation.tabs
+    - navigation.footer
     - navigation.sections
     - toc.follow
     - content.tabs.link

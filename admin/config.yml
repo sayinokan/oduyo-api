@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: sayinokan/oduyo-api
+  repo: sayinokan/docs
   branch: main
   use_graphql: true
   client_id: Ov23li39sr3jN9DkIR1J

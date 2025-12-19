@@ -1,9 +1,0 @@
-backend:
-  name: github
-  repo: sayinokan/oduyo-api
-  branch: main
-
-media_folder: "docs/assets/uploads"
-public_folder: "/assets/uploads"
-
-
